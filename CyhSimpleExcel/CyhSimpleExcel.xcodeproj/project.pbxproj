@@ -14,6 +14,7 @@
 		32E85DAC1F95FBE100A557AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E85DAB1F95FBE100A557AD /* Assets.xcassets */; };
 		32E85DAF1F95FBE100A557AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E85DAD1F95FBE100A557AD /* LaunchScreen.storyboard */; };
 		32E85DB21F95FBE100A557AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E85DB11F95FBE100A557AD /* main.m */; };
+		32E85DBA1F960BB000A557AD /* Excel.plist in Sources */ = {isa = PBXBuildFile; fileRef = 32E85DB91F960B1800A557AD /* Excel.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +29,7 @@
 		32E85DAE1F95FBE100A557AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32E85DB01F95FBE100A557AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32E85DB11F95FBE100A557AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32E85DB81F960A4B00A557AD /* Excel.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Excel.plist; sourceTree = "<group>"; };
+		32E85DB91F960B1800A557AD /* Excel.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Excel.plist; sourceTree = "<group>"; };
 		D84352B8A1AC77C45FF1418B /* libPods-CyhSimpleExcel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CyhSimpleExcel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF2D171E133EFFBD8603E84 /* Pods-CyhSimpleExcel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyhSimpleExcel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CyhSimpleExcel/Pods-CyhSimpleExcel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,7 +67,7 @@
 		32E85DA11F95FBE100A557AD /* CyhSimpleExcel */ = {
 			isa = PBXGroup;
 			children = (
-				32E85DB81F960A4B00A557AD /* Excel.plist */,
+				32E85DB91F960B1800A557AD /* Excel.plist */,
 				32E85DA21F95FBE100A557AD /* AppDelegate.h */,
 				32E85DA31F95FBE100A557AD /* AppDelegate.m */,
 				32E85DA51F95FBE100A557AD /* ViewController.h */,
@@ -222,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E85DBA1F960BB000A557AD /* Excel.plist in Sources */,
 				32E85DA71F95FBE100A557AD /* ViewController.m in Sources */,
 				32E85DB21F95FBE100A557AD /* main.m in Sources */,
 				32E85DA41F95FBE100A557AD /* AppDelegate.m in Sources */,
