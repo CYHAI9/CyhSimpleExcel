@@ -1,0 +1,4 @@
+platform :ios, '9.0'
+target "CyhSimpleExcel" do
+pod 'cyhSimpleExcel'
+end

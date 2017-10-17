@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1ECE7A10AC51F83EB4853755 /* libPods-CyhSimpleExcel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D84352B8A1AC77C45FF1418B /* libPods-CyhSimpleExcel.a */; };
 		32E85DA41F95FBE100A557AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E85DA31F95FBE100A557AD /* AppDelegate.m */; };
 		32E85DA71F95FBE100A557AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E85DA61F95FBE100A557AD /* ViewController.m */; };
 		32E85DAA1F95FBE100A557AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E85DA81F95FBE100A557AD /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0768F1A565A36484F5453EE6 /* Pods-CyhSimpleExcel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyhSimpleExcel.release.xcconfig"; path = "Pods/Target Support Files/Pods-CyhSimpleExcel/Pods-CyhSimpleExcel.release.xcconfig"; sourceTree = "<group>"; };
 		32E85D9F1F95FBE100A557AD /* CyhSimpleExcel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CyhSimpleExcel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32E85DA21F95FBE100A557AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		32E85DA31F95FBE100A557AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +28,9 @@
 		32E85DAE1F95FBE100A557AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32E85DB01F95FBE100A557AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32E85DB11F95FBE100A557AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32E85DB81F960A4B00A557AD /* Excel.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Excel.plist; sourceTree = "<group>"; };
+		D84352B8A1AC77C45FF1418B /* libPods-CyhSimpleExcel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CyhSimpleExcel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF2D171E133EFFBD8603E84 /* Pods-CyhSimpleExcel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyhSimpleExcel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CyhSimpleExcel/Pods-CyhSimpleExcel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ECE7A10AC51F83EB4853755 /* libPods-CyhSimpleExcel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +50,8 @@
 			children = (
 				32E85DA11F95FBE100A557AD /* CyhSimpleExcel */,
 				32E85DA01F95FBE100A557AD /* Products */,
+				7B5B6FC74EF6FE7B9B9888CA /* Pods */,
+				A92AC2C46A3197D54AE07BCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +66,7 @@
 		32E85DA11F95FBE100A557AD /* CyhSimpleExcel */ = {
 			isa = PBXGroup;
 			children = (
+				32E85DB81F960A4B00A557AD /* Excel.plist */,
 				32E85DA21F95FBE100A557AD /* AppDelegate.h */,
 				32E85DA31F95FBE100A557AD /* AppDelegate.m */,
 				32E85DA51F95FBE100A557AD /* ViewController.h */,
@@ -71,6 +80,23 @@
 			path = CyhSimpleExcel;
 			sourceTree = "<group>";
 		};
+		7B5B6FC74EF6FE7B9B9888CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDF2D171E133EFFBD8603E84 /* Pods-CyhSimpleExcel.debug.xcconfig */,
+				0768F1A565A36484F5453EE6 /* Pods-CyhSimpleExcel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A92AC2C46A3197D54AE07BCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D84352B8A1AC77C45FF1418B /* libPods-CyhSimpleExcel.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32E85DB51F95FBE100A557AD /* Build configuration list for PBXNativeTarget "CyhSimpleExcel" */;
 			buildPhases = (
+				202ED777B82462F5F730F58A /* [CP] Check Pods Manifest.lock */,
 				32E85D9B1F95FBE100A557AD /* Sources */,
 				32E85D9C1F95FBE100A557AD /* Frameworks */,
 				32E85D9D1F95FBE100A557AD /* Resources */,
+				64CB6356B375818CAE2779CD /* [CP] Embed Pods Frameworks */,
+				F4AD57C7E87C7B0639FE0929 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,6 +165,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		202ED777B82462F5F730F58A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CyhSimpleExcel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64CB6356B375818CAE2779CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CyhSimpleExcel/Pods-CyhSimpleExcel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4AD57C7E87C7B0639FE0929 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CyhSimpleExcel/Pods-CyhSimpleExcel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		32E85D9B1F95FBE100A557AD /* Sources */ = {
@@ -276,9 +356,11 @@
 		};
 		32E85DB61F95FBE100A557AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF2D171E133EFFBD8603E84 /* Pods-CyhSimpleExcel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q73R372BNT;
 				INFOPLIST_FILE = CyhSimpleExcel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cyhai.CyhSimpleExcel;
@@ -289,9 +371,11 @@
 		};
 		32E85DB71F95FBE100A557AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0768F1A565A36484F5453EE6 /* Pods-CyhSimpleExcel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q73R372BNT;
 				INFOPLIST_FILE = CyhSimpleExcel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cyhai.CyhSimpleExcel;

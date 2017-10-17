@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		056FBB32C57CFA19BDE7EF4CDEEF8983 /* ExcelLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 57446649CE3411CB789ED3FF00802CAC /* ExcelLayout.m */; };
+		0AAF71A34031CFAD53B7A940133C9FC6 /* ExcelLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7026CADD3787DCE934F0419BBCACD63D /* ExcelLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2488D3C44688313AB2850EAA2009E4EB /* ExcelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 007FFD1A79598D34DBD22914EC5C2A86 /* ExcelCell.m */; };
+		619FA3C053F37189260616DA0B357F1A /* Pods-CyhSimpleExcel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A08679CD8318FE0F1D8BD76282A7D62C /* Pods-CyhSimpleExcel-dummy.m */; };
+		72D91B4EED5B54D07C4D0F977AC82F13 /* ExcelCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C7F57E8B2F31F1A2BEF1E52C3E08707C /* ExcelCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D21B7AAC846667997EC7DE157CCB4719 /* cyhSimpleExcel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E2502EF71DB49F4F4CC2749869FA61 /* cyhSimpleExcel-dummy.m */; };
+		D250BD1EAC32504AA0367D37DDC04167 /* CyhExcelSimple.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CCABD32AEE1B3C733F2FB5D6E1DC4B /* CyhExcelSimple.m */; };
+		D7A298D32AB134280B1870B9C787972A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E27F68DBEF74F2A4108D44682BB2D303 /* CyhExcelSimple.h in Headers */ = {isa = PBXBuildFile; fileRef = 0853EA16000D84F26441781D359EAA0D /* CyhExcelSimple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5919795018F9D0D00F148E1FC81218F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		698D10CEABB7093C7DF5C68B798F2541 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 059086EE87D07C0C2A25DF6AC01554C9;
+			remoteInfo = cyhSimpleExcel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007FFD1A79598D34DBD22914EC5C2A86 /* ExcelCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExcelCell.m; path = SimpleExcel/ExcelCell.m; sourceTree = "<group>"; };
+		0853EA16000D84F26441781D359EAA0D /* CyhExcelSimple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CyhExcelSimple.h; path = SimpleExcel/CyhExcelSimple.h; sourceTree = "<group>"; };
+		3223CAF99098D3245D7BD3E9C6A0EA94 /* libPods-CyhSimpleExcel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CyhSimpleExcel.a"; path = "libPods-CyhSimpleExcel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5CE925AFFB61154EBA6E276D46CA1F /* Pods-CyhSimpleExcel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CyhSimpleExcel.release.xcconfig"; sourceTree = "<group>"; };
+		4EBB1F064945761274129AD9CE6A410B /* Pods-CyhSimpleExcel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CyhSimpleExcel.debug.xcconfig"; sourceTree = "<group>"; };
+		57446649CE3411CB789ED3FF00802CAC /* ExcelLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExcelLayout.m; path = SimpleExcel/ExcelLayout.m; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7026CADD3787DCE934F0419BBCACD63D /* ExcelLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExcelLayout.h; path = SimpleExcel/ExcelLayout.h; sourceTree = "<group>"; };
+		71951B2DAD510310926C4B54A6DEF378 /* cyhSimpleExcel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cyhSimpleExcel-prefix.pch"; sourceTree = "<group>"; };
+		7285BC84DDDAA984EDA05B53CF752627 /* cyhSimpleExcel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = cyhSimpleExcel.xcconfig; sourceTree = "<group>"; };
+		78E334CC4705E35A77DB65D496B8D091 /* Pods-CyhSimpleExcel-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CyhSimpleExcel-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		954B61B189386229AC8548D30A349F59 /* Pods-CyhSimpleExcel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CyhSimpleExcel-acknowledgements.plist"; sourceTree = "<group>"; };
+		A08679CD8318FE0F1D8BD76282A7D62C /* Pods-CyhSimpleExcel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CyhSimpleExcel-dummy.m"; sourceTree = "<group>"; };
+		A3601C1421235378EA966DD2831A4153 /* Pods-CyhSimpleExcel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CyhSimpleExcel-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B973A25433A203D11E721B4E8A86485A /* libcyhSimpleExcel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libcyhSimpleExcel.a; path = libcyhSimpleExcel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F57E8B2F31F1A2BEF1E52C3E08707C /* ExcelCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExcelCell.h; path = SimpleExcel/ExcelCell.h; sourceTree = "<group>"; };
+		D124DAFA8EBCDC01B9160E62A2F4CF58 /* Pods-CyhSimpleExcel-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CyhSimpleExcel-resources.sh"; sourceTree = "<group>"; };
+		D7E2502EF71DB49F4F4CC2749869FA61 /* cyhSimpleExcel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "cyhSimpleExcel-dummy.m"; sourceTree = "<group>"; };
+		F8CCABD32AEE1B3C733F2FB5D6E1DC4B /* CyhExcelSimple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CyhExcelSimple.m; path = SimpleExcel/CyhExcelSimple.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35230E96B05B57622BC92D3012FC77F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A298D32AB134280B1870B9C787972A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD2E9D92CE81B8A004B84F4B6F48F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5919795018F9D0D00F148E1FC81218F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3885482087DF06BAAB6CF9372537D9F8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7285BC84DDDAA984EDA05B53CF752627 /* cyhSimpleExcel.xcconfig */,
+				D7E2502EF71DB49F4F4CC2749869FA61 /* cyhSimpleExcel-dummy.m */,
+				71951B2DAD510310926C4B54A6DEF378 /* cyhSimpleExcel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/cyhSimpleExcel";
+			sourceTree = "<group>";
+		};
+		518ABC3E7D69034497F8F59103E2C0A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B973A25433A203D11E721B4E8A86485A /* libcyhSimpleExcel.a */,
+				3223CAF99098D3245D7BD3E9C6A0EA94 /* libPods-CyhSimpleExcel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F5E55CBAF913AB0440E7682C86FD064 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1DE9863AF5CF450217115080333F763 /* cyhSimpleExcel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5F5E55CBAF913AB0440E7682C86FD064 /* Pods */,
+				518ABC3E7D69034497F8F59103E2C0A5 /* Products */,
+				F597C8E8A9093E404A21B2C3DFFC28D9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A1DE9863AF5CF450217115080333F763 /* cyhSimpleExcel */ = {
+			isa = PBXGroup;
+			children = (
+				0853EA16000D84F26441781D359EAA0D /* CyhExcelSimple.h */,
+				F8CCABD32AEE1B3C733F2FB5D6E1DC4B /* CyhExcelSimple.m */,
+				C7F57E8B2F31F1A2BEF1E52C3E08707C /* ExcelCell.h */,
+				007FFD1A79598D34DBD22914EC5C2A86 /* ExcelCell.m */,
+				7026CADD3787DCE934F0419BBCACD63D /* ExcelLayout.h */,
+				57446649CE3411CB789ED3FF00802CAC /* ExcelLayout.m */,
+				3885482087DF06BAAB6CF9372537D9F8 /* Support Files */,
+			);
+			name = cyhSimpleExcel;
+			path = cyhSimpleExcel;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DBD9634E8F14F6EA2F3759A14C65E9CA /* Pods-CyhSimpleExcel */ = {
+			isa = PBXGroup;
+			children = (
+				A3601C1421235378EA966DD2831A4153 /* Pods-CyhSimpleExcel-acknowledgements.markdown */,
+				954B61B189386229AC8548D30A349F59 /* Pods-CyhSimpleExcel-acknowledgements.plist */,
+				A08679CD8318FE0F1D8BD76282A7D62C /* Pods-CyhSimpleExcel-dummy.m */,
+				78E334CC4705E35A77DB65D496B8D091 /* Pods-CyhSimpleExcel-frameworks.sh */,
+				D124DAFA8EBCDC01B9160E62A2F4CF58 /* Pods-CyhSimpleExcel-resources.sh */,
+				4EBB1F064945761274129AD9CE6A410B /* Pods-CyhSimpleExcel.debug.xcconfig */,
+				4B5CE925AFFB61154EBA6E276D46CA1F /* Pods-CyhSimpleExcel.release.xcconfig */,
+			);
+			name = "Pods-CyhSimpleExcel";
+			path = "Target Support Files/Pods-CyhSimpleExcel";
+			sourceTree = "<group>";
+		};
+		F597C8E8A9093E404A21B2C3DFFC28D9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBD9634E8F14F6EA2F3759A14C65E9CA /* Pods-CyhSimpleExcel */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0226B799C5DEE6F3D9E0B4760D64147E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27F68DBEF74F2A4108D44682BB2D303 /* CyhExcelSimple.h in Headers */,
+				72D91B4EED5B54D07C4D0F977AC82F13 /* ExcelCell.h in Headers */,
+				0AAF71A34031CFAD53B7A940133C9FC6 /* ExcelLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		059086EE87D07C0C2A25DF6AC01554C9 /* cyhSimpleExcel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08AF72CAD449C0F8783C24A41B6E45F4 /* Build configuration list for PBXNativeTarget "cyhSimpleExcel" */;
+			buildPhases = (
+				E949CE5EDEADEE9DD7181013F2E7325C /* Sources */,
+				6CD2E9D92CE81B8A004B84F4B6F48F4A /* Frameworks */,
+				0226B799C5DEE6F3D9E0B4760D64147E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cyhSimpleExcel;
+			productName = cyhSimpleExcel;
+			productReference = B973A25433A203D11E721B4E8A86485A /* libcyhSimpleExcel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		65C3AF43F43132025B498689557D49C0 /* Pods-CyhSimpleExcel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA44974DB38C588312535FD2169723C /* Build configuration list for PBXNativeTarget "Pods-CyhSimpleExcel" */;
+			buildPhases = (
+				7507D4612F6746D197234E8C6A4D9245 /* Sources */,
+				35230E96B05B57622BC92D3012FC77F8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1CD3B068313130C0D90E6BFC9A6CF7B /* PBXTargetDependency */,
+			);
+			name = "Pods-CyhSimpleExcel";
+			productName = "Pods-CyhSimpleExcel";
+			productReference = 3223CAF99098D3245D7BD3E9C6A0EA94 /* libPods-CyhSimpleExcel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 518ABC3E7D69034497F8F59103E2C0A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				059086EE87D07C0C2A25DF6AC01554C9 /* cyhSimpleExcel */,
+				65C3AF43F43132025B498689557D49C0 /* Pods-CyhSimpleExcel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7507D4612F6746D197234E8C6A4D9245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619FA3C053F37189260616DA0B357F1A /* Pods-CyhSimpleExcel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E949CE5EDEADEE9DD7181013F2E7325C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D250BD1EAC32504AA0367D37DDC04167 /* CyhExcelSimple.m in Sources */,
+				D21B7AAC846667997EC7DE157CCB4719 /* cyhSimpleExcel-dummy.m in Sources */,
+				2488D3C44688313AB2850EAA2009E4EB /* ExcelCell.m in Sources */,
+				056FBB32C57CFA19BDE7EF4CDEEF8983 /* ExcelLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1CD3B068313130C0D90E6BFC9A6CF7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = cyhSimpleExcel;
+			target = 059086EE87D07C0C2A25DF6AC01554C9 /* cyhSimpleExcel */;
+			targetProxy = 698D10CEABB7093C7DF5C68B798F2541 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17130028AF7E335C3AAD5D4AC9098850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7285BC84DDDAA984EDA05B53CF752627 /* cyhSimpleExcel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/cyhSimpleExcel/cyhSimpleExcel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		367A9C914B4FDB6D5918A28F0DA238B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EBB1F064945761274129AD9CE6A410B /* Pods-CyhSimpleExcel.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C5AF2479571573D0F36C379280FCE7F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B5CE925AFFB61154EBA6E276D46CA1F /* Pods-CyhSimpleExcel.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4AC28855D738F3516D5E74AE05EAD8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7285BC84DDDAA984EDA05B53CF752627 /* cyhSimpleExcel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/cyhSimpleExcel/cyhSimpleExcel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08AF72CAD449C0F8783C24A41B6E45F4 /* Build configuration list for PBXNativeTarget "cyhSimpleExcel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17130028AF7E335C3AAD5D4AC9098850 /* Debug */,
+				E4AC28855D738F3516D5E74AE05EAD8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA44974DB38C588312535FD2169723C /* Build configuration list for PBXNativeTarget "Pods-CyhSimpleExcel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367A9C914B4FDB6D5918A28F0DA238B6 /* Debug */,
+				C5AF2479571573D0F36C379280FCE7F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

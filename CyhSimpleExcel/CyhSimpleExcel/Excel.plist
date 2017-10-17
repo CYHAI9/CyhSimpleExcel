@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>data</key>
+	<array>
+		<dict>
+			<key>ExcelTitle</key>
+			<string>测试表格</string>
+			<key>ExcelListTitle</key>
+			<array>
+				<string>空气</string>
+				<string>温度</string>
+				<string>湿度</string>
+			</array>
+			<key>ExcelValueTitle</key>
+			<array>
+				<string>变量值1</string>
+				<string>变量值2</string>
+				<string>变量值3</string>
+			</array>
+			<key>ExcelListValues</key>
+			<array>
+				<array>
+					<string>120</string>
+					<string>130</string>
+					<string>140</string>
+				</array>
+				<array>
+					<string>36</string>
+					<string>37</string>
+					<string>35</string>
+				</array>
+				<array>
+					<string>98</string>
+					<string>89</string>
+					<string>99</string>
+				</array>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,12 @@
+PODS:
+  - cyhSimpleExcel (1.0.0)
+
+DEPENDENCIES:
+  - cyhSimpleExcel
+
+SPEC CHECKSUMS:
+  cyhSimpleExcel: 7784db599c26331631439382670626cddad5bb23
+
+PODFILE CHECKSUM: 7997ca045a641882375be5ec4d7d31519eaf7a8d
+
+COCOAPODS: 1.4.0.beta.1
